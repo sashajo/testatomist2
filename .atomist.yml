@@ -95,3 +95,18 @@ editor:
   parameters:
     - "base_docker_repository": "sashajo"
 
+---
+kind: "operation"
+client: "atomist"
+editor:
+  name: "atomist-rugs.spring-boot-editors.UpdateServicePort"
+  group: "atomist-rugs"
+  artifact: "spring-boot-editors"
+  version: "0.3.0"
+  origin:
+    repo: "atomist-rugs/spring-boot-editors.git"
+    branch: "3ef0b81b36ddada7a53d54ee9b731665de02a99b"
+    sha: "3ef0b81"
+  parameters:
+    - "service_port": "9090"
+
